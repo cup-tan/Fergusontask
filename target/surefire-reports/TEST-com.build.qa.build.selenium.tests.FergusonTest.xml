@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.build.qa.build.selenium.tests.FergusonTest" time="177.507" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="/Users/aslihanbasak/.m2/repository/webdriver/chromedriver/mac64/102.0.5005.61/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/aslihanbasak/IdeaProjects/assesment-ferguson/target/test-classes:/Users/aslihanbasak/IdeaProjects/assesment-ferguson/target/classes:/Users/aslihanbasak/.m2/repository/org/testng/testng/6.8.3/testng-6.8.3.jar:/Users/aslihanbasak/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/aslihanbasak/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/aslihanbasak/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/Users/aslihanbasak/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/selenium-server/3.4.0/selenium-server-3.4.0.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/selenium-java/3.4.0/selenium-java-3.4.0.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/selenium-api/3.4.0/selenium-api-3.4.0.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.4.0/selenium-chrome-driver-3.4.0.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.4.0/selenium-edge-driver-3.4.0.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.4.0/selenium-firefox-driver-3.4.0.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.4.0/selenium-ie-driver-3.4.0.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.4.0/selenium-opera-driver-3.4.0.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.4.0/selenium-remote-driver-3.4.0.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.4.0/selenium-safari-driver-3.4.0.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/selenium-support/3.4.0/selenium-support-3.4.0.jar:/Users/aslihanbasak/.m2/repository/cglib/cglib-nodep/3.2.4/cglib-nodep-3.2.4.jar:/Users/aslihanbasak/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/aslihanbasak/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/aslihanbasak/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/aslihanbasak/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/aslihanbasak/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/aslihanbasak/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/aslihanbasak/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.22/cssparser-0.9.22.jar:/Users/aslihanbasak/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/Users/aslihanbasak/.m2/repository/com/google/guava/guava/21.0/guava-21.0.jar:/Users/aslihanbasak/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/aslihanbasak/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.26/htmlunit-2.26.jar:/Users/aslihanbasak/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.26/htmlunit-core-js-2.26.jar:/Users/aslihanbasak/.m2/repository/net/sourceforge/htmlunit/neko-htmlunit/2.25/neko-htmlunit-2.25.jar:/Users/aslihanbasak/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/aslihanbasak/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/aslihanbasak/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/aslihanbasak/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.1.v20170120/jetty-repacked-9.4.1.v20170120.jar:/Users/aslihanbasak/.m2/repository/org/eclipse/jetty/jetty-io/9.4.1.v20170120/jetty-io-9.4.1.v20170120.jar:/Users/aslihanbasak/.m2/repository/org/eclipse/jetty/jetty-util/9.4.1.v20170120/jetty-util-9.4.1.v20170120.jar:/Users/aslihanbasak/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/Users/aslihanbasak/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/Users/aslihanbasak/.m2/repository/com/codeborne/phantomjsdriver/1.4.0/phantomjsdriver-1.4.0.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/htmlunit-driver/2.26/htmlunit-driver-2.26.jar:/Users/aslihanbasak/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/aslihanbasak/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.3.v20170317/websocket-api-9.4.3.v20170317.jar:/Users/aslihanbasak/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.3.v20170317/websocket-client-9.4.3.v20170317.jar:/Users/aslihanbasak/.m2/repository/org/eclipse/jetty/jetty-client/9.4.3.v20170317/jetty-client-9.4.3.v20170317.jar:/Users/aslihanbasak/.m2/repository/org/eclipse/jetty/jetty-http/9.4.3.v20170317/jetty-http-9.4.3.v20170317.jar:/Users/aslihanbasak/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.3.v20170317/websocket-common-9.4.3.v20170317.jar:/Users/aslihanbasak/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/aslihanbasak/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/aslihanbasak/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/aslihanbasak/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/aslihanbasak/.m2/repository/io/github/bonigarcia/webdrivermanager/3.6.2/webdrivermanager-3.6.2.jar:/Users/aslihanbasak/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/aslihanbasak/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/aslihanbasak/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/aslihanbasak/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/aslihanbasak/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.0.2/log4j-slf4j-impl-2.0.2.jar:/Users/aslihanbasak/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar:/Users/aslihanbasak/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/17/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/aslihanbasak/IdeaProjects/assesment-ferguson/target/surefire/surefirebooter1530085717614924308.jar /Users/aslihanbasak/IdeaProjects/assesment-ferguson/target/surefire 2022-06-19T23-49-04_429-jvmRun1 surefire12291369773681968304tmp surefire_05592813174233920160tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/aslihanbasak/IdeaProjects/assesment-ferguson/target/test-classes:/Users/aslihanbasak/IdeaProjects/assesment-ferguson/target/classes:/Users/aslihanbasak/.m2/repository/org/testng/testng/6.8.3/testng-6.8.3.jar:/Users/aslihanbasak/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/aslihanbasak/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/aslihanbasak/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/Users/aslihanbasak/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/selenium-server/3.4.0/selenium-server-3.4.0.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/selenium-java/3.4.0/selenium-java-3.4.0.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/selenium-api/3.4.0/selenium-api-3.4.0.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.4.0/selenium-chrome-driver-3.4.0.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.4.0/selenium-edge-driver-3.4.0.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.4.0/selenium-firefox-driver-3.4.0.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.4.0/selenium-ie-driver-3.4.0.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.4.0/selenium-opera-driver-3.4.0.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.4.0/selenium-remote-driver-3.4.0.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.4.0/selenium-safari-driver-3.4.0.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/selenium-support/3.4.0/selenium-support-3.4.0.jar:/Users/aslihanbasak/.m2/repository/cglib/cglib-nodep/3.2.4/cglib-nodep-3.2.4.jar:/Users/aslihanbasak/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/aslihanbasak/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/aslihanbasak/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/aslihanbasak/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/aslihanbasak/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/aslihanbasak/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/aslihanbasak/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.22/cssparser-0.9.22.jar:/Users/aslihanbasak/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/Users/aslihanbasak/.m2/repository/com/google/guava/guava/21.0/guava-21.0.jar:/Users/aslihanbasak/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/aslihanbasak/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.26/htmlunit-2.26.jar:/Users/aslihanbasak/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.26/htmlunit-core-js-2.26.jar:/Users/aslihanbasak/.m2/repository/net/sourceforge/htmlunit/neko-htmlunit/2.25/neko-htmlunit-2.25.jar:/Users/aslihanbasak/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/aslihanbasak/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/aslihanbasak/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/aslihanbasak/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.1.v20170120/jetty-repacked-9.4.1.v20170120.jar:/Users/aslihanbasak/.m2/repository/org/eclipse/jetty/jetty-io/9.4.1.v20170120/jetty-io-9.4.1.v20170120.jar:/Users/aslihanbasak/.m2/repository/org/eclipse/jetty/jetty-util/9.4.1.v20170120/jetty-util-9.4.1.v20170120.jar:/Users/aslihanbasak/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/Users/aslihanbasak/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/Users/aslihanbasak/.m2/repository/com/codeborne/phantomjsdriver/1.4.0/phantomjsdriver-1.4.0.jar:/Users/aslihanbasak/.m2/repository/org/seleniumhq/selenium/htmlunit-driver/2.26/htmlunit-driver-2.26.jar:/Users/aslihanbasak/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/aslihanbasak/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.3.v20170317/websocket-api-9.4.3.v20170317.jar:/Users/aslihanbasak/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.3.v20170317/websocket-client-9.4.3.v20170317.jar:/Users/aslihanbasak/.m2/repository/org/eclipse/jetty/jetty-client/9.4.3.v20170317/jetty-client-9.4.3.v20170317.jar:/Users/aslihanbasak/.m2/repository/org/eclipse/jetty/jetty-http/9.4.3.v20170317/jetty-http-9.4.3.v20170317.jar:/Users/aslihanbasak/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.3.v20170317/websocket-common-9.4.3.v20170317.jar:/Users/aslihanbasak/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/aslihanbasak/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/aslihanbasak/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/aslihanbasak/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/aslihanbasak/.m2/repository/io/github/bonigarcia/webdrivermanager/3.6.2/webdrivermanager-3.6.2.jar:/Users/aslihanbasak/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/aslihanbasak/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/aslihanbasak/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/aslihanbasak/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/aslihanbasak/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.0.2/log4j-slf4j-impl-2.0.2.jar:/Users/aslihanbasak/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar:/Users/aslihanbasak/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/aslihanbasak"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-09-14"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/17/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/aslihanbasak/IdeaProjects/assesment-ferguson"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/aslihanbasak/IdeaProjects/assesment-ferguson/target/surefire/surefirebooter1530085717614924308.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17+0"/>
+    <property name="user.name" value="aslihanbasak"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.0.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/aslihanbasak/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/wb/k432m4xn34z2pcffhs5qvch80000gn/T/"/>
+    <property name="java.version" value="17"/>
+    <property name="user.dir" value="/Users/aslihanbasak/IdeaProjects/assesment-ferguson"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/aslihanbasak/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="17+0"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Stage1_navigateToHomePage" classname="com.build.qa.build.selenium.tests.FergusonTest" time="2.887">
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 47659
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 19, 2022 11:49:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Stage2_searchForProductLandsOnCorrectProduct" classname="com.build.qa.build.selenium.tests.FergusonTest" time="7.29">
+    <system-out><![CDATA[actualProductBrand = Moen
+actualProductID = Part #M6702BN
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 41418
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 19, 2022 11:49:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Stage3_addProductToCartFromCategoryDrop" classname="com.build.qa.build.selenium.tests.FergusonTest" time="30.468">
+    <system-out><![CDATA[Waiting for page to load...
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 31495
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 19, 2022 11:49:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Stage4_addMultipleCartItemsAndChangeQuantity" classname="com.build.qa.build.selenium.tests.FergusonTest" time="68.211">
+    <system-out><![CDATA[Waiting for page to load...
+totalPrice = $1,127.82
+totalPrice = 1127.82
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 7489
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 19, 2022 11:49:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Stage5_facetNarrowBysResultInCorrectProductCounts" classname="com.build.qa.build.selenium.tests.FergusonTest" time="60.581">
+    <system-out><![CDATA[result.getText()1 = 886 results for "Hand Showers"
+actualTotalCount = 886
+result.getText()2 = 128 results for "Hand Showers"
+deltaCount = Delta Faucet
+(128)
+Integer.parseInt(expectedTotalDelta) = 128
+Integer.parseInt(actualTotalCountAfterFilter) = 128
+eachFinish = Gold Tones
+(15)
+result.getText()3 = 15 results for "Hand Showers"
+actualTotalCountAfterSecondFilter = 15
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 38248
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 19, 2022 11:51:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 19, 2022 11:51:59 PM org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '404' -> incorrect JSON status mapping for 'stale element reference' (400 expected)
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'Aslihans-MBP.home', ip: 'fdad:e41c:6031:1:7dba:1607:815:9380%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.0.1', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}), userDataDir=/var/folders/wb/k432m4xn34z2pcffhs5qvch80000gn/T/.com.google.Chrome.pFYo8L}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:63459}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=102.0.5005.115, browserName=chrome, javascriptEnabled=true, platformName=mac os x, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 5bc7d53d6c12c0eec947c01fe733d3d3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:156)
+	at com.build.qa.build.selenium.tests.FergusonTest.Stage5_facetNarrowBysResultInCorrectProductCounts(FergusonTest.java:282)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+</testsuite>
