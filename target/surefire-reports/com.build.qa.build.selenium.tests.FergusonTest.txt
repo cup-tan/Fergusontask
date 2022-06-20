@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.build.qa.build.selenium.tests.FergusonTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 177.507 s - in com.build.qa.build.selenium.tests.FergusonTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 177.045 s - in com.build.qa.build.selenium.tests.FergusonTest

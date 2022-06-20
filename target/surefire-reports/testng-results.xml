@@ -2,72 +2,72 @@
 <testng-results total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-20T03:49:05Z" name="Surefire suite" finished-at="2022-06-20T03:52:02Z" duration-ms="176934">
+  <suite started-at="2022-06-20T04:02:28Z" name="Surefire suite" finished-at="2022-06-20T04:05:25Z" duration-ms="176352">
     <groups>
     </groups>
-    <test started-at="2022-06-20T03:49:05Z" name="Surefire test" finished-at="2022-06-20T03:52:02Z" duration-ms="176934">
+    <test started-at="2022-06-20T04:02:28Z" name="Surefire test" finished-at="2022-06-20T04:05:25Z" duration-ms="176352">
       <class name="com.build.qa.build.selenium.tests.FergusonTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-19T23:49:05Z" name="beforeClass" finished-at="2022-06-19T23:49:05Z" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-20T00:02:28Z" name="beforeClass" finished-at="2022-06-20T00:02:28Z" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="setUpBefore()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-19T23:49:05Z" name="setUpBefore" finished-at="2022-06-19T23:49:07Z" duration-ms="1762" status="PASS">
+        <test-method is-config="true" signature="setUpBefore()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-20T00:02:28Z" name="setUpBefore" finished-at="2022-06-20T00:02:31Z" duration-ms="2399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBefore -->
-        <test-method signature="Stage1_navigateToHomePage()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-19T23:49:07Z" name="Stage1_navigateToHomePage" finished-at="2022-06-19T23:49:10Z" duration-ms="2896" status="PASS">
+        <test-method signature="Stage1_navigateToHomePage()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-20T00:02:31Z" name="Stage1_navigateToHomePage" finished-at="2022-06-20T00:02:35Z" duration-ms="4480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Stage1_navigateToHomePage -->
-        <test-method is-config="true" signature="tearDownAfter()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-19T23:49:10Z" name="tearDownAfter" finished-at="2022-06-19T23:49:10Z" duration-ms="105" status="PASS">
+        <test-method is-config="true" signature="tearDownAfter()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-20T00:02:35Z" name="tearDownAfter" finished-at="2022-06-20T00:02:35Z" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfter -->
-        <test-method is-config="true" signature="setUpBefore()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-19T23:49:10Z" name="setUpBefore" finished-at="2022-06-19T23:49:11Z" duration-ms="1192" status="PASS">
+        <test-method is-config="true" signature="setUpBefore()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-20T00:02:35Z" name="setUpBefore" finished-at="2022-06-20T00:02:36Z" duration-ms="1131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBefore -->
-        <test-method signature="Stage2_searchForProductLandsOnCorrectProduct()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-19T23:49:11Z" name="Stage2_searchForProductLandsOnCorrectProduct" finished-at="2022-06-19T23:49:18Z" duration-ms="7298" status="PASS">
+        <test-method signature="Stage2_searchForProductLandsOnCorrectProduct()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-20T00:02:36Z" name="Stage2_searchForProductLandsOnCorrectProduct" finished-at="2022-06-20T00:02:46Z" duration-ms="9724" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Stage2_searchForProductLandsOnCorrectProduct -->
-        <test-method is-config="true" signature="tearDownAfter()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-19T23:49:18Z" name="tearDownAfter" finished-at="2022-06-19T23:49:18Z" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="tearDownAfter()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-20T00:02:46Z" name="tearDownAfter" finished-at="2022-06-20T00:02:46Z" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfter -->
-        <test-method is-config="true" signature="setUpBefore()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-19T23:49:18Z" name="setUpBefore" finished-at="2022-06-19T23:49:19Z" duration-ms="1168" status="PASS">
+        <test-method is-config="true" signature="setUpBefore()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-20T00:02:46Z" name="setUpBefore" finished-at="2022-06-20T00:02:47Z" duration-ms="1093" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBefore -->
-        <test-method signature="Stage3_addProductToCartFromCategoryDrop()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-19T23:49:19Z" name="Stage3_addProductToCartFromCategoryDrop" finished-at="2022-06-19T23:49:50Z" duration-ms="30473" status="PASS">
+        <test-method signature="Stage3_addProductToCartFromCategoryDrop()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-20T00:02:47Z" name="Stage3_addProductToCartFromCategoryDrop" finished-at="2022-06-20T00:03:15Z" duration-ms="27397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Stage3_addProductToCartFromCategoryDrop -->
-        <test-method is-config="true" signature="tearDownAfter()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-19T23:49:50Z" name="tearDownAfter" finished-at="2022-06-19T23:49:50Z" duration-ms="224" status="PASS">
+        <test-method is-config="true" signature="tearDownAfter()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-20T00:03:15Z" name="tearDownAfter" finished-at="2022-06-20T00:03:15Z" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfter -->
-        <test-method is-config="true" signature="setUpBefore()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-19T23:49:50Z" name="setUpBefore" finished-at="2022-06-19T23:49:51Z" duration-ms="1281" status="PASS">
+        <test-method is-config="true" signature="setUpBefore()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-20T00:03:15Z" name="setUpBefore" finished-at="2022-06-20T00:03:16Z" duration-ms="1249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBefore -->
-        <test-method signature="Stage4_addMultipleCartItemsAndChangeQuantity()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-19T23:49:51Z" name="Stage4_addMultipleCartItemsAndChangeQuantity" finished-at="2022-06-19T23:51:00Z" duration-ms="68221" status="PASS">
+        <test-method signature="Stage4_addMultipleCartItemsAndChangeQuantity()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-20T00:03:16Z" name="Stage4_addMultipleCartItemsAndChangeQuantity" finished-at="2022-06-20T00:04:21Z" duration-ms="64737" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Stage4_addMultipleCartItemsAndChangeQuantity -->
-        <test-method is-config="true" signature="tearDownAfter()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-19T23:51:00Z" name="tearDownAfter" finished-at="2022-06-19T23:51:00Z" duration-ms="226" status="PASS">
+        <test-method is-config="true" signature="tearDownAfter()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-20T00:04:21Z" name="tearDownAfter" finished-at="2022-06-20T00:04:21Z" duration-ms="204" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfter -->
-        <test-method is-config="true" signature="setUpBefore()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-19T23:51:00Z" name="setUpBefore" finished-at="2022-06-19T23:51:01Z" duration-ms="1264" status="PASS">
+        <test-method is-config="true" signature="setUpBefore()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-20T00:04:21Z" name="setUpBefore" finished-at="2022-06-20T00:04:22Z" duration-ms="1116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBefore -->
-        <test-method signature="Stage5_facetNarrowBysResultInCorrectProductCounts()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-19T23:51:01Z" name="Stage5_facetNarrowBysResultInCorrectProductCounts" finished-at="2022-06-19T23:52:02Z" duration-ms="60495" status="PASS">
+        <test-method signature="Stage5_facetNarrowBysResultInCorrectProductCounts()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-20T00:04:22Z" name="Stage5_facetNarrowBysResultInCorrectProductCounts" finished-at="2022-06-20T00:05:24Z" duration-ms="62187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Stage5_facetNarrowBysResultInCorrectProductCounts -->
-        <test-method is-config="true" signature="tearDownAfter()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-19T23:52:02Z" name="tearDownAfter" finished-at="2022-06-19T23:52:02Z" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="tearDownAfter()[pri:0, instance:com.build.qa.build.selenium.tests.FergusonTest@25df00a0]" started-at="2022-06-20T00:05:24Z" name="tearDownAfter" finished-at="2022-06-20T00:05:25Z" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfter -->
